@@ -24,6 +24,7 @@ for (let value of Object.values(user)){
 }
 
 /* //Read up on other methods of enumeration 
-1) Object.getOwnPropertyNames()
-2) Object.getOwnPropertySymbols()
-3) Reflect.ownKeys() */
+1)Object.keys(): return an array of the names of the enumerable own properties of an object. It does not include non-enumerable properties, inherited properties, or properties whose name is a symbol.
+2) Object.getOwnPropertyNames(): returns an array of the names of non-enumerable own properties as long as their name is a string
+3) Object.getOwnPropertySymbols(): returns own properties whose names are Symbols, whether they are enumerable or not
+4) Reflect.ownKeys(): return all own property names, both enumerable and non-enumerable, and both string and symbol */
