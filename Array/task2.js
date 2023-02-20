@@ -1,0 +1,1 @@
+//Write an array algorithm that reverse string with odd length in an array e.g ['Hello', 'world', 'We', 'Are', 'Here ] to ['olleH', 'dlrow', 'We', 'era' , 'Here'] 

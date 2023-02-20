@@ -13,3 +13,4 @@ function checkVowels(str) {
 }
 
 console.log(checkVowels('correction'));
+
